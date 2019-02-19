@@ -1,8 +1,8 @@
 @using Parcel.Models;
-<h1> List of Parcels.</h1>
+<h1> Your Parcel.</h1>
 
 <li>Size: @Model.GetWidth() X @Model.GetHeight() X @Model.GetLength()</li>
 <li>Volume: @Model.Volume()</li>
 <li>Cost to Ship: @Model.CostToShip()</li>
 
-<a href="/parcels/new">Add a new item.</a>
+<a href="/parcels/new">Create a new parcel.</a>
